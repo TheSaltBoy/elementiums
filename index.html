@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8"/>
+    <title>The Elementiums</title>
+    <link href="css/home.css" rel="stylesheet" type="text/css"/>
+    <link href="css/nav.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/home.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Kanit:800|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kanit:600" rel="stylesheet">
+	<link rel="icon" href="css/images/r1.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+	
+<header>
+	
+	<!-- ----------NAVIGATION---------- -->
+	
+	<div class="nav">
+		<a class="title" href="index.html">The Elementiums</a>
+		<a href="index.html"><img src="css/images/home.svg"></a>
+		<a class="play" href="rules.html">Play the game</a>
+			
+	</div>
+	
+	<!-- -->
+	
+</header>
+	
+	<body>
+	
+		<!-- ----------Element Cards---------- -->
+		
+		<div class="wrapper">
+			<div class="selector">
+				<div class="tile" onclick='document.getElementById("name").innerText = "Helium"'>
+					<img class="icon" src="css/images/bond.svg">
+					<div class="he">
+						<h2>2</h2>
+						<h1>He</h1>
+					</div>
+				</div>
+				<div class="tile" onclick='document.getElementById("name").innerText = "Gallium"'>
+					<img class="icon" src="css/images/bond.svg">
+					<div class="ga">
+						<h2>31</h2>
+						<h1>Ga</h1>
+					</div></div>
+				<div class="tile" onclick='document.getElementById("name").innerText = "Barium"'>
+					<img class="icon" src="css/images/bond.svg">
+					<div class="ba">
+						<h2>56</h2>
+						<h1>Ba</h1>
+					</div></div>
+				<div class="tile" onclick='document.getElementById("name").innerText = "Gadolinium"'>
+					<img class="icon" src="css/images/bond.svg">
+					<div class="gd">
+						<h2>64</h2>
+						<h1>Gd</h1>
+					</div></div>
+				<div class="tile" onclick='document.getElementById("name").innerText = "Promethium"'>
+					<img class="icon" src="css/images/bond.svg">
+					<div class="pm">
+						<h2>61</h2>
+						<h1>Pm</h1>
+					</div></div>
+				<div class="tile" onclick='document.getElementById("name").innerText = "Samarium"'>
+					<img class="icon" src="css/images/bond.svg">
+					<div class="sm">
+						<h2>62</h2>
+						<h1>Sm</h1>
+					</div></div>
+			</div>
+			
+			<div class="preview">
+				
+				
+			<!-- ----------Info Card---------- -->
+				
+				<div class="content">
+					<div class="name">
+						<p id="name">Helium</p>
+					</div>
+					<div class="box">
+						<div class="info">
+							<p id="content">Helium is one of the lightest and simplest elements of the Periodic Table. Don't be fooled by its simplicity though, it's one of the most useful elements around!</p>
+						</div>
+						<a href="Helium.html" class="button">
+							<p>Find out more!</p>
+							<img src="css/images/arrow.svg">
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</body>
+	
+</html>
