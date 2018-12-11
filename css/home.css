@@ -37,8 +37,10 @@
 .wrapper {
 	height: 100vh;
 	width: 100vw;
-	background-color: green;
-	background-image: url(images/bg/gd.png)
+	background-color: #22a2dc;
+	background-image: url(images/bg/gd.png);
+	background-position: right;
+	background-repeat: no-repeat;
 }
 
 div img {
@@ -66,14 +68,26 @@ div img {
 .he {
 	color: #22a2dc;
 }
-
-.tile.icon{
-	fill: #22a2dc;
-}
 	
 
 .ga {
 	color: #7dc341;
+}
+
+.ba {
+	color:orange;
+}
+
+.gd {
+	color: yellow;
+}
+
+.pm {
+	color: purple;
+}
+
+.sm {
+	color: red;
 }
 
 .preview {
@@ -106,13 +120,13 @@ div img {
 
 .box {
 	width: 50%;
-	height: 200px;
+	height: 180px;
 	display: flex;
 }
 
 .info {
 	width: 90%;
-	height: 60%;
+	height: 40%;
 	background-color: white;
 	border-radius: 0 0 0 12px;
 	padding: 40px;
@@ -120,7 +134,7 @@ div img {
 
 .button {
 	width: 20%;
-	height: 80%;
+	height: 62%;
 	background-color: #22a2dc;
 	color: white;
 	font-size: 1.2em;
@@ -136,4 +150,10 @@ div img {
 
 .button img {
 	filter: invert();
+}
+
+svg.bond {
+	width: 120px;
+	height: 120px;
+	float: right;
 }

@@ -118,3 +118,10 @@ body a {
 	text-decoration: none;
 	color: black;
 }
+
+.gal {
+	background-image: url(images/bg/ga.png);
+	background-size: cover;
+	background-position: right;
+	background-repeat: no-repeat;
+}
