@@ -1,5 +1,5 @@
 .nav {
-	height: 3vw;
+	height: 50px;
 	width: 100vw;
 	margin: 0;
 	padding: 0;
@@ -25,21 +25,22 @@
 	font-family: Kanit;
 }
 
-.play {
-	margin-right: 4vw;
-	background-color: #ea681c;
-}
-
 .nav a {
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none;
-	
-	border-radius: 12px;
+}
+
+.play {
+	margin-right: 4vw;
+	background-color: #ea681c;
+	padding: 6px 6px;
+	border-radius: 4px;
 }
 
 .nav img {
 	height: 1.7vw;
+	min-height: 23px;
 	filter: invert();
+	margin-right: 2vw;
 }
