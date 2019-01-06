@@ -5,10 +5,12 @@
 
 #gd {
 	background-image: url(images/bg/gd.png);
+	background-position: right;
 }
 
 #pm {
 	background-image: url(images/bg/pm.png);
+	background-position: right;
 }
 
 #he {
@@ -21,6 +23,7 @@
 
 #ba {
 	background-image: url(images/bg/ba.png);
+	background-position: right;
 }
 
 /*Header Images*/
@@ -46,4 +49,52 @@
 
 #cern {
 	background-image: url(images/cern.png);
+}
+
+#gallium {
+	background-image: url(images/gallium.jpg);
+}
+
+#thermo {
+	background-image: url(images/thermo.jpg);
+}
+
+#dmitri {
+	background-image: url(images/dmitri.jpg);
+}
+
+#gad {
+	background-image: url(images/gad.jpg);
+}
+
+#gadolinite {
+	background-image: url(images/gadolinite.jpg);
+}
+
+#reactor {
+	background-image: url(images/reactor.png);
+}
+
+#promethium {
+	background-image: url(images/pm.jpeg);
+}
+
+#signal {
+	background-image: url(images/signal.jpg);
+}
+
+#fission {
+	background-image: url(images/fission.jpg);
+}
+
+#barium {
+	background-image: url(images/barium.jpg);
+}
+
+#xray {
+	background-image: url(images/xray.jpeg);
+}
+
+#stone {
+	background-image: url(images/stone.jpg);
 }
